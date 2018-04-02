@@ -294,9 +294,64 @@ a{
 	color: #FD9843;
 }
 
+/* 混合模块 */
+.mixSection{
+	/* height: 300px; */
+	background: #F4F4F4;
+	padding-top: 30px;
+	overflow: hidden;
+}
+.mixSection ol{
+	padding-left: 20%;
+}
+.warpper a{
+	color: rgb(112, 123, 131);
+}
+.mixSection li{
+	list-style-type: circle;
+	line-height: 2;
+	/* text-align: left; */
+}
+.chartPart,.editerPart{
+	margin-right: 10%;
+}
+.mixSection p{
+	width: 70%;
+	margin: auto;
+	line-height: 2;
+}
+.mixSection .warpper{
+	float: left;
+	border-radius: 4px;
+	background: #fff;
+	box-shadow:3px 3px 8px #e5e5e5;
+	width: 45%;
+	height: 300px;
+	padding-top: 50px;
+	margin-bottom: 30px;
+	transition: transform 0.2s ease;
+}
+.warpper:hover{
+	transform: translateY(-2px);
+	box-shadow:4px 4px 10px #d5d5d5;
+}
+.mixSection .warpper h2{
+	margin-bottom: 20px;
+	text-align: center;
+	color: #379FE3;
+}
+.editerDemo{
+	display: block;
+	width: 66%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+
+/* 团队成员 */
 .teamSection{
 	padding: 40px 0;
-	background: #F4F4F4;
+	/* background: #F4F4F4; */
 	text-align: center;
 }
 .teamSection dt{
@@ -320,7 +375,6 @@ a{
 	border-radius: 50%;
 	margin: 0 auto 8px;
 }
-
 
 #footer {
 	height: 60px;
