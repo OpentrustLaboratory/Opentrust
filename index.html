@@ -3,11 +3,12 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="icon" href="favicon.ico" /> 
-	<link rel="stylesheet" href="index.css">
+	<link rel="icon" href="favicon.ico" />
+	<link rel="stylesheet" href="index.css" />
 	<title>FEGO大前端</title>
+	<meta name="keywords" content="前端,大前端,fego,fegos" >
+	<meta name="description" content="飞狗大前端致力于实践跨平台开发，前端工程服务化，扩展前端职能领域，让团队协作更愉悦，更高效。" >
 </head>
 
 <body>
@@ -15,7 +16,7 @@
 		<section class="mainSection">
 			<div class="waveWrapper waveAnimation">
 				<dl class="g-ctn">
-					<dt>FEGO 大前端</dt>
+					<dt><a href="https://www.github.com/fegos" target="_blank" title="飞狗大前端">FEGO 大前端</a></dt>
 					<dd>
 						<svg class="icon">
 							<g id="mainSection-1" transform="translate(-266.000000, -332.000000)" fillRule="nonzero" fill="#FFFFFF">
@@ -28,7 +29,7 @@
 						<h2>主动</h2>
 						<p>
 							主动发现问题
-							<br /> 主动思考更优方案
+							<br /> 勇于承担责任
 							<br /> 主动跟进并解决问题
 							<br /> 主动总结反思(总结经验并分享)
 							<br />
@@ -47,7 +48,7 @@
 						</svg>
 						<h2>专业</h2>
 						<p>
-							项目专长：
+							业务专长：
 							<br />业务领域或某产品线深入学习，独当一面
 							<br /> 技术专长：
 							<br />在某技术领域广泛深入的研究，达到专家水平
@@ -69,7 +70,8 @@
 						<h2>沟通</h2>
 						<p>
 							换位思考
-							<br /> 促进本组及兄弟团队共同进步
+							<br /> 保障团队高效协作
+							<br /> 保持谦逊，态度开放，共同进步
 						</p>
 					</dd>
 				</dl>
@@ -89,14 +91,15 @@
 		</section>
 		<section class="rnSection" ref={rnPart}>
 			<div class="g-ctn">
-				<div class="iphone">
-					<img src="./img/screenShot.jpg" alt="" />
+				<div class="fego">
+					<img src="./img/fego.jpg" alt="" />
 				</div>
 				<div class="describe">
-					<h2>RN APP</h2>
-					<p>移动客户端和web前端开发工程师共同用React Native开发一款多平台适用的APP。</p>
-					<p>客户端开发人员分别对iOS和Android不同之处做底层封装，封装成统一的对外接口，之后客户端和web端的两组开发人员就可以共同进行业务逻辑开发。</p>
-					<a href="/fego-rn-app" title="fego-rn" class="more">了解更多></a>
+					<!-- <h2>团队简介</h2> -->
+					<p>组织英文名：fegos</p>
+					<p>组织中文名：飞狗大前端</p>
+					<p>致力于实践跨平台开发，前端工程服务化，扩展前端职能领域，让团队协作更愉悦，更高效。</p>
+					<a href="https://www.github.com/fegos" target="_blank" title="飞狗大前端" class="more">github></a>
 				</div>
 			</div>
 		</section>
@@ -131,6 +134,50 @@
 				</dl>
 			</div>
 		</section>
+		
+		<section class="mixSection">
+			<div class="g-ctn">
+				<div class="warpper chartPart">
+					<a href="/fego-chart" title="">
+						<h2>跨平台图形渲染引擎</h2>
+						<p>行情渲染引擎(简称fego-chart)是为了适配项目中金融图表展示需求而打造的跨平台图表库，fego-chart支持Web端,移动端(iOS和Android)以及桌面端(Electron),fego-chart使用react/react-native来构建引擎组件</p>
+					</a>
+				</div>
+				<div class="warpper">
+					<a href="/fego-rn-update" target="_blank" title="">
+						<h2>热更新</h2>
+						<ol>
+							<li>基于React Native(0.47~0.55)的热更新库</li>
+							<li>提供android和ios两端的支持</li>
+							<li>支持热更新、增量更新，配置简单，部署方便，一键打包</li>
+							<li>支持字体文件更新</li>
+						</ol>
+					</a>
+				</div>
+				<div class="warpper editerPart">
+					<a href="/fego-editer" target="_blank" title="">
+						<h2>富文本编辑器</h2>
+						<ol>
+							<li>基于DraftJS开发的富文本编辑器</li>
+							<li>完善的文本内容编辑</li>
+							<li>支持图文混排、插入图片和视频内容</li>
+						</ol>
+						<img class="editerDemo" src="./img/demo.gif" alt="">
+					</a>
+				</div>
+				<div class="warpper">
+					<a href="/react-native-template-fego" target="_blank" title="">
+						<h2>react-native自定义模版</h2>
+						<p>react-native 自定义模版。快速构建集导航、高级组件、热更新等能力的react-native项目。</p>
+						<ol>
+							<li>官方支持，稳定可靠</li>
+							<li>快速构建，操作简单</li>
+							<li>降低门槛，功能整合</li>
+						</ol>
+					</a>
+				</div>
+			</div>
+		</section>
 		<section class="nodeSection">
 			<div class="g-ctn">
 				<p class="title">React & Node 前后端同构</p>
@@ -143,7 +190,7 @@
 							<li>支持数据预加载</li>
 							<li>支持PC & Mobile</li>
 						</ol>
-						<a href="/fego-node" class="more">了解更多></a>
+						<!-- <a href="/fego-node" class="more">了解更多></a> -->
 						<div class="settingPic">
 							<svg width="300px" height="300px" viewBox="0 0 74 74">
 								<g id="Components" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
@@ -159,49 +206,6 @@
 							</svg>
 						</div>
 					</div>
-				</div>
-			</div>
-		</section>
-		<section class="mixSection">
-			<div class="g-ctn">
-				<div class="warpper chartPart">
-					<a href="/fego-chart" title="">
-						<h2>跨平台图形渲染引擎</h2>
-						<p>NSIP行情渲染引擎(简称fego-chart)是为了适配NSIP相关项目中金融图表展示需求而打造的跨平台图表库，fego-chart支持Web端,移动端(iOS和Android)以及桌面端(Electron),fego-chart使用react/react-native来构建引擎组件</p>
-					</a>
-				</div>
-				<div class="warpper">
-					<a href="/fego-rn-update" title="">
-						<h2>热更新</h2>
-						<ol>
-							<li>基于React Native(0.47~0.53)的热更新库</li>
-							<li>提供android和ios两端的支持</li>
-							<li>支持热更新、增量更新，配置简单，部署方便，一键打包</li>
-							<li>支持字体文件更新</li>
-						</ol>
-					</a>
-				</div>
-				<div class="warpper editerPart">
-					<a href="/fego-editer" title="">
-						<h2>富文本编辑器</h2>
-						<ol>
-							<li>基于DraftJS开发的富文本编辑器</li>
-							<li>完善的文本内容编辑</li>
-							<li>支持图文混排、插入图片和视频内容</li>
-						</ol>
-						<img class="editerDemo" src="./img/demo.gif" alt="">
-					</a>
-				</div>
-				<div class="warpper">
-					<a href="/react-native-template-fego" title="">
-						<h2>react-native自定义模版</h2>
-						<p>react-native 自定义模版。快速构建集导航、高级组件、热更新等能力的react-native项目。</p>
-						<ol>
-							<li>官方支持，稳定可靠</li>
-							<li>快速构建，操作简单</li>
-							<li>降低门槛，功能整合</li>
-						</ol>
-					</a>
 				</div>
 			</div>
 		</section>
@@ -267,7 +271,7 @@
 			</dl>
 		</section>
 	</div>
-	<div id='footer' >
+	<div id='footer'>
 		<div class='g-ctn f-cb'>
 			<p>Copyright © FEGO大前端团队</p>
 		</div>
