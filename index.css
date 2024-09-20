@@ -78,7 +78,7 @@ a {
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: linear-gradient(to top, #F5F5F5 20%, #DEDEE9 80%);
+    background-image: linear-gradient(to top, #D9D9D9 20%, #6E6C83 80%);
 }
 
 .bgTop {
