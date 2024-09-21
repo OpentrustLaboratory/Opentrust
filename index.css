@@ -410,12 +410,20 @@ a {
     color: #379FE3;
 }
 
-.editerDemo {
+.Demo {
     display: block;
     width: 66%;
     margin: auto;
     margin-top: 10px;
 }
+
+.JPG {
+    display: block;
+    width: 66%;
+    margin: auto;
+    margin-top: 10px;
+}
+
 
 /* 团队成员 */
 
