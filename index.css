@@ -249,6 +249,7 @@ a {
     color: rgb(112, 123, 131);
     line-height: 2;
     text-align: center;
+    padding-right:20%
 }
 
 .compSection dl {
@@ -365,7 +366,7 @@ a {
 
 .mixSection ol {
     padding-left: 20%;
-    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .warpper a {
@@ -376,6 +377,7 @@ a {
     list-style-type: circle;
     line-height: 2;
     /* text-align: left; */
+    padding-right: 20%;
 }
 
 .chartPart,
