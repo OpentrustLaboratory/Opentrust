@@ -281,6 +281,8 @@ a {
     margin: 0 auto;
     background-size: 100%;
     background-repeat: no-repeat;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .compSection dd:nth-of-type(1) {
