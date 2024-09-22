@@ -429,6 +429,12 @@ a {
     margin: auto;
     margin-top: 8px;
 }
+.PNG {
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-top: 4px;
+}
 
 
 /* 团队成员 */
