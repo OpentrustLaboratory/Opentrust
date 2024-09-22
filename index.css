@@ -248,6 +248,7 @@ a {
     list-style-type: circle;
     color: rgb(112, 123, 131);
     line-height: 2;
+    text-align: center;
 }
 
 .compSection dl {
