@@ -135,11 +135,6 @@ a {
     animation: move_wave 15s linear infinite;
 }
 
-.Twitter {
-    display: inline-block;
-    margin-top: 10px;
-    color: #FFFFFF;
-
 .mainSection dl {
     position: relative;
     top: 50px;
@@ -190,6 +185,11 @@ a {
     z-index: 20;
     background-image: linear-gradient(to right, #ffffff, #dddddd, #ffffff);
 }
+
+.mainsection. Twitter {
+    display: inline-block;
+    margin-top: 10px;
+    color: #FFFFFF;
 
 .rnSection {
     padding: 0 0 20px;
