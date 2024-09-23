@@ -186,7 +186,7 @@ a {
     background-image: linear-gradient(to right, #ffffff, #dddddd, #ffffff);
 }
 
-.mainsection. Twitter {
+. Twitter {
     display: inline-block;
     margin-top: 10px;
     color: #FFFFFF;
@@ -432,6 +432,7 @@ a {
     margin-top: 8px;
 	
 }
+	
 .FHE-Photo {
     display: block;
     width: 10%;
