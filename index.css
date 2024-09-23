@@ -186,6 +186,12 @@ a {
     background-image: linear-gradient(to right, #ffffff, #dddddd, #ffffff);
 }
 
+.Twitter {
+    display: inline-block;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
 .rnSection {
     padding: 0 0 20px;
 }
@@ -212,6 +218,13 @@ a {
 .rnSection .describe p {
     line-height: 1.6;
     margin: 30px 0;
+}
+
+.rnSection .describe FHE-Photo {
+    display: block;
+    width: 20%;
+    margin: auto;
+    margin-top: 4px;
 }
 
 .compSection {
@@ -425,13 +438,6 @@ a {
     margin: auto;
     margin-top: 8px;
 	
-}
-	
-.FHE-Photo {
-    display: block;
-    width: 60%;
-    margin: auto;
-    margin-top: 4px;
 }
 
 
