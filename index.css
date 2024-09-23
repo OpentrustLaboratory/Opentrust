@@ -246,15 +246,14 @@ a {
 
 .compSection ol {
     padding-top: 20px;
-    padding-left: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .compSection li {
     list-style-type: circle;
     color: rgb(112, 123, 131);
     line-height: 2;
-    padding-right: 10%;
-    padding-left: 10%;
 }
 
 .compSection dl {
