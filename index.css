@@ -135,6 +135,11 @@ a {
     animation: move_wave 15s linear infinite;
 }
 
+.Twitter {
+    display: inline-block;
+    margin-top: 10px;
+    color: #FFFFFF;
+
 .mainSection dl {
     position: relative;
     top: 50px;
