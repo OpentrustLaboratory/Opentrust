@@ -458,14 +458,14 @@ a {
 
 .teamSection dd {
     z-index: 20;
-    display: block;
-    float: left;
+    display: inline-block;
     width: 20%;
     color: #939393;
+    vertical-align: top;
 }
 
 .teamSection h2 {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.6;
     text-align: center;
 }
@@ -481,6 +481,9 @@ a {
     line-height: 1;
 }
 
+.teamSection ol {
+    padding-left: 0;
+}
 
 #footer {
     height: 60px;
@@ -493,4 +496,5 @@ a {
 #footer p {
     text-align: center;
     font-size: 16px;
+    margin: 0;
 }
