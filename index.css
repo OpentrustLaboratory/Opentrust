@@ -450,8 +450,8 @@ a {
 		border-top: 1px solid #EEE;
 }
 
-.teamSection 16 {
-    padding: 20px 0 20px;
+.teamSection dt {
+    padding: 14px 0 10px;
     font-size: 38px;
 }
 
@@ -472,8 +472,13 @@ a {
 
 .teamSection p {
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.2;
     text-align: center;
+}
+
+.teamSection li {
+    list-style-type: circle;
+    line-height: 1;
 }
 
 
