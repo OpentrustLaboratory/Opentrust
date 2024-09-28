@@ -444,14 +444,14 @@ a {
 /* 团队成员 */
 
 .teamSection {
-    padding: 40px 0;
+    padding: 30px 0;
     background: #FAFAFA;
 		text-align: center;
 		border-top: 1px solid #EEE;
 }
 
 .teamSection dt {
-    padding: 14px 0 10px;
+    padding: 14px 0 20px;
     font-size: 38px;
 }
 
@@ -479,10 +479,12 @@ a {
 .teamSection li {
     list-style-type: circle;
     line-height: 1;
+    text-align: left;
 }
 
 .teamSection ol {
     padding-left: 0;
+    margin: 5px;
 }
 
 #footer {
