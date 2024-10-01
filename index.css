@@ -408,7 +408,7 @@ a {
     background: #fff;
     box-shadow: 3px 3px 8px #e5e5e5;
     width: 45%;
-    height: 300px;
+    height: 600px;
     padding-top: 50px;
     margin-bottom: 30px;
     transition: transform 0.2s ease;
@@ -445,7 +445,7 @@ a {
 
 .teamSection {
     padding: 30px 0;
-    background: #FAFAFA;
+    background: #FFFFFF;
 		text-align: center;
 		border-top: 1px solid #EEE;
 }
@@ -453,33 +453,37 @@ a {
 .teamSection dt {
     padding: 14px 0 20px;
     font-size: 38px;
+    color: #939393;
 }
 
 
 .teamSection dd {
     z-index: 20;
-    display: inline-block;
-    width: 18%;
-    color: #939393;
-    vertical-align: top;
+    display: block;
+    width: 80%;
+/*     vertical-align: top; */
 }
 
 .teamSection h2 {
     font-size: 24px;
     line-height: 1.6;
-    text-align: center;
+    text-align: left;
+    font-weight: bold;
 }
 
 .teamSection p {
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
+    color: #000000;
+    
 }
 
 .teamSection li {
     list-style-type: circle;
     line-height: 1;
     text-align: left;
+    color: #DEDEE9;
 }
 
 .teamSection ol {
