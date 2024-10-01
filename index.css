@@ -450,7 +450,7 @@ a {
 /* 团队成员 */
 
 .teamSection {
-    padding: 0 0 30;
+    padding: 0 0 30px;
     background: #FFFFFF;
 		text-align: center;
 		border-top: 1px solid #EEE;
