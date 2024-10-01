@@ -20,7 +20,7 @@ a {
 
 .more {
     display: inline-block;
-    margin-top: 70px;
+    margin-top: 40px;
     color: #FD9843;
 }
 
@@ -218,6 +218,7 @@ a {
 .rnSection .describe p {
     line-height: 1.4;
     margin: 30px 0;
+    font-size: 20px;
 }
 
 .FHE-Photo {
